@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MVPlayer32</string>
+    <string name="settings">设置</string>
+    <string name="home">首页</string>
+    <string name="mv">MV</string>
+    <string name="vbang">V榜</string>
+    <string name="yue_dan">悦单</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="push_notification">推送通知</string>
+    <string name="no_wifi_load_image">非wifi下加载图片</string>
+    <string name="about">关于</string>
+    <string name="mv_count">%d首</string>
+    <string name="last_music">已经是最后一首歌</string>
+    <string name="first_music">已经是第一首歌啦</string>
+</resources>

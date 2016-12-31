@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp">
+
+    <ImageView
+        android:id="@id/mv_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_layer"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="标题"
+                android:textColor="@color/green"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@id/artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创建者"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>

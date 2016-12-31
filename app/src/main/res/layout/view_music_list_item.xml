@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@id/music_list_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/music_default_bg"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/music_list_icon"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="标题"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@id/artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="歌手"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@id/size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15M"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>
